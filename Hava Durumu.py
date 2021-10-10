@@ -2,20 +2,7 @@ import requests
 import json
 import time
 
-# r = requests.get("http://api.weatherapi.com/v1/current.json?key=e8d78d472edb4333888101025210910&q=Turkey/Ankara&aqi=no")
 
-# res = r.text
-
-# data = json.loads(res)
-
-
-# derece = data["current"]["temp_c"]
-
-# sehir = data["location"]["name"]
-
-
-
-# print(f"Bugün {sehir}'de hava {derece} derece.")
 
 while True:
     print("-- Hava Durumu App --")
